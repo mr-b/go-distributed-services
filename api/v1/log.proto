@@ -6,5 +6,5 @@ option go_package = "github.com/mr-b/proglog/api/v1/log_v1";
 
 message Record {
     bytes value = 1;
-    uint64 ofset = 2;
+    uint64 offset = 2;
 }
